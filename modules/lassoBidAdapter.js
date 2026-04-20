@@ -13,6 +13,7 @@ const storage = getStorageManager({ bidderCode: BIDDER_CODE });
 
 export const spec = {
   code: BIDDER_CODE,
+  disclosureURL: 'https://res.lassomarketing.io/disclosure/lassoBidAdapterDisclosure.json',
   isBidRequestValid: function(bid) {
     return !!(bid.params && bid.params.adUnitId);
   },

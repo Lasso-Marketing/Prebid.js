@@ -37,6 +37,10 @@ const bidderRequest = {
 
 describe('lassoBidAdapter', function () {
   describe('All needed functions are available', function() {
+    it('declares device storage disclosure for first-party cookie access (aim-xr)', function () {
+      expect(spec.disclosureURL).to.equal('https://res.lassomarketing.io/disclosure/lassoBidAdapterDisclosure.json');
+    });
+
     it(`isBidRequestValid is present and type function`, function () {
       expect(spec.isBidRequestValid).to.exist.and.to.be.a('function')
     });

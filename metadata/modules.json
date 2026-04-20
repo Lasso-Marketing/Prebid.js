@@ -2834,7 +2834,7 @@
       "componentName": "lasso",
       "aliasOf": null,
       "gvlid": null,
-      "disclosureURL": null
+      "disclosureURL": "https://res.lassomarketing.io/disclosure/lassoBidAdapterDisclosure.json"
     },
     {
       "componentType": "bidder",
